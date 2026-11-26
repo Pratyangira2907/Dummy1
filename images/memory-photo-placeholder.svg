@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title description">
+  <title id="title">Memory photo placeholder</title>
+  <desc id="description">A warm scrapbook placeholder to replace with a personal photograph.</desc>
+  <defs>
+    <linearGradient id="wash" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fce8dc"/>
+      <stop offset="1" stop-color="#f5d5d5"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.5" fill="#c99586" opacity=".25"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="700" fill="url(#wash)"/>
+  <rect width="900" height="700" fill="url(#dots)"/>
+  <circle cx="450" cy="270" r="110" fill="#fffdf8" opacity=".68"/>
+  <path d="M450 317c-111-69-101-156-41-156 24 0 39 15 41 35 3-20 18-35 42-35 60 0 70 87-42 156z" fill="#d59a91" opacity=".76"/>
+  <path d="M260 445h380" stroke="#b48b7b" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <text x="450" y="500" fill="#72594d" font-family="Georgia, serif" font-size="31" font-style="italic" text-anchor="middle">your memory photo goes here</text>
+  <text x="450" y="545" fill="#947a6c" font-family="Arial, sans-serif" font-size="15" letter-spacing="4" text-anchor="middle">ADD YOUR PHOTO TO THE IMAGES FOLDER</text>
+  <rect x="18" y="18" width="864" height="664" rx="8" fill="none" stroke="#fffdf8" stroke-width="5" opacity=".8"/>
+</svg>

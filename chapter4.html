@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chapter 04 — Two Years of Us." />
+    <meta name="theme-color" content="#fffdf8" />
+    <title>Chapter 04 — Two Years of Us | Two Years of Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page-view">
+      <section class="our-story chapter-document" aria-label="Chapter 04 — Two Years of Us">
+        <div class="story-decoration story-decoration--heart" aria-hidden="true">♡</div>
+        <div class="story-decoration story-decoration--flower" aria-hidden="true">✿</div>
+        <div class="our-story__inner">
+          <article class="memory-chapter reveal" aria-labelledby="chapter-four-title">
+            <header class="chapter-heading chapter-heading--right">
+              <p class="chapter-label">CHAPTER 04 <span>—</span> Two Years of Us</p>
+              <h3 id="chapter-four-title">Two years, still becoming us</h3>
+              <p>Two years of love, friendship and memories. And our story is still unfolding.</p>
+            </header>
+            <div class="chapter-layout chapter-layout--reverse">
+              <div class="chapter-opening">
+                <p class="chapter-lede">Two years is a beautiful thing to look back on—and an even lovelier place to begin looking forward.</p>
+                <p>That Intimacy between us is never replaceable...and you are the one who touched me first and I want you to be the last...see how you are holding my me around you...🥹</p>
+              </div>
+              <figure class="memory-photo chapter-photo chapter-photo--one">
+                <button class="memory-photo__trigger" type="button" aria-label="Enlarge a second-anniversary memory">
+                  <!-- Replace images/memory7.jpg with a photograph from your second year together. -->
+                  <img src="images/p11.jpeg" data-fallback-src="images/memory-photo-placeholder.svg" alt="Editable placeholder for a photograph from our second year together" />
+                </button>
+                <figcaption>Holding my me around you...😘🥹</figcaption>
+              </figure>
+              <div class="chapter-reflection">
+                <figure class="memory-photo memory-photo--polaroid chapter-photo chapter-photo--two memory-photo--tilt-left">
+                  <button class="memory-photo__trigger" type="button" aria-label="Enlarge another second-anniversary memory">
+                    <!-- Replace images/memory8.jpg with another photograph from your second year. -->
+                    <img src="images/p12.jpeg" data-fallback-src="images/memory-photo-placeholder.svg" alt="Editable placeholder for another photograph from our second year" />
+                  </button>
+                  <figcaption>The way you look at me never fails to make my heart skip a beat...😘</figcaption>
+                </figure>
+                <div class="chapter-reflection__copy">
+                  <p class="chapter-lede">There is still so much story left for us to write.</p>
+                  <p>We'll Continue it together...and make it even better...❤️</p>
+                </div>
+              </div>
+            </div>
+            <nav class="chapter-pagination chapter-page-navigation" aria-label="Chapter navigation">
+              <a href="chapter3.html"><span aria-hidden="true">←</span> Previous Chapter</a>
+              <a class="chapter-page-navigation__back" href="story.html">Back to Our Story</a>
+              <a href="letter.html">Next Chapter <span aria-hidden="true">→</span></a>
+            </nav>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="photo-lightbox" id="photo-lightbox" aria-label="Expanded photograph">
+      <button class="photo-lightbox__close" id="lightbox-close" type="button" aria-label="Close photograph">×</button>
+      <img class="photo-lightbox__image" id="lightbox-image" alt="" />
+      <p class="photo-lightbox__caption" id="lightbox-caption"></p>
+    </dialog>
+  </body>
+</html>

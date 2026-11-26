@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chapter 03 — Our Favourite Moments." />
+    <meta name="theme-color" content="#fffdf8" />
+    <title>Chapter 03 — Our Favourite Moments | Two Years of Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page-view">
+      <section class="our-story chapter-document" aria-label="Chapter 03 — Our Favourite Moments">
+        <div class="story-decoration story-decoration--heart" aria-hidden="true">♡</div>
+        <div class="story-decoration story-decoration--flower" aria-hidden="true">✿</div>
+        <div class="our-story__inner">
+          <article class="memory-chapter reveal" aria-labelledby="chapter-three-title">
+            <header class="chapter-heading">
+              <p class="chapter-label">CHAPTER 03 <span>—</span> Our Favourite Moments</p>
+              <h3 id="chapter-three-title">The moments we hold close</h3>
+              <p>The memories, laughter and little adventures that made us who we are.</p>
+            </header>
+            <div class="chapter-layout">
+              <div class="chapter-opening">
+                <p class="chapter-lede">Do you remember our pic ?? </p>
+                <p>Unexpected ana indha pic enak aga nee gift pannah nayabgo iruka??...Thank you so much...that was unexpected...🥰</p>
+              </div>
+              <figure class="memory-photo memory-photo--polaroid chapter-photo chapter-photo--one memory-photo--tilt-left">
+                <button class="memory-photo__trigger" type="button" aria-label="Enlarge a favourite shared moment">
+                  <!-- Replace images/memory5.jpg with a photograph of a favourite shared moment. -->
+                  <img src="images/p9.jpeg" data-fallback-src="images/memory-photo-placeholder.svg" alt="Editable placeholder for one of our favourite moments" />
+                </button>
+                <figcaption>Alaga iruka....😍</figcaption>
+              </figure>
+              <div class="chapter-reflection">
+                <figure class="memory-photo chapter-photo chapter-photo--two memory-photo--tilt-right">
+                  <button class="memory-photo__trigger" type="button" aria-label="Enlarge another favourite memory">
+                    <!-- Replace images/memory6.jpg with another favourite memory photograph. -->
+                    <img src="images/p10.jpeg" data-fallback-src="images/memory-photo-placeholder.svg" alt="Editable placeholder for another favourite memory together" />
+                  </button>
+                  <figcaption>Idhu en favourite Pic.....</figcaption>
+                </figure>
+                <div class="chapter-reflection__copy">
+                  <p class="chapter-lede">These are the little keepsakes that make our story feel like home.</p>
+                  <p>Idhu Ennoda most fav pic...yen nah na alaga iruken...have a remind of all these pics...eruma sani ena nee ipo vc la pathute iruka enak shy ah iruk...irunthalum na avasara avasarama type pannite iruken...I need to surprise you...🤫</p>
+                </div>
+              </div>
+            </div>
+            <nav class="chapter-pagination chapter-page-navigation" aria-label="Chapter navigation">
+              <a href="chapter2.html"><span aria-hidden="true">←</span> Previous Chapter</a>
+              <a class="chapter-page-navigation__back" href="story.html">Back to Our Story</a>
+              <a href="chapter4.html">Next Chapter <span aria-hidden="true">→</span></a>
+            </nav>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="photo-lightbox" id="photo-lightbox" aria-label="Expanded photograph">
+      <button class="photo-lightbox__close" id="lightbox-close" type="button" aria-label="Close photograph">×</button>
+      <img class="photo-lightbox__image" id="lightbox-image" alt="" />
+      <p class="photo-lightbox__caption" id="lightbox-caption"></p>
+    </dialog>
+  </body>
+</html>
